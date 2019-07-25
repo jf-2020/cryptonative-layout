@@ -1,0 +1,32 @@
+html , body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar, .footer {
+    background: rgb(81, 124, 241);
+}
+
+.content {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid black;
+}
